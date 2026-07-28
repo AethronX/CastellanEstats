@@ -1,184 +1,184 @@
 {
-  "journey/01-exterior": {
-    "name": "journey/01-exterior",
-    "src": "/images/journey/01-exterior.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEEAAAABmYzofzjYRpLkBI0l88+MWLTGwp6rcSImYALGrEAEyJhLsVqoKQaAABJnVIAGj4PzRe3ZL198Nvtskjqt7oS4AABWUDggRAAAALADAJ0BKhgADgA+7WitTqmmJKIwCAEwHYljAKwAIfDWkKKVmUQAAP6QQvGxOsVv74KobOjPNXRXSlGnBcOBf8dBNwAA"
-  },
-  "journey/02-approach": {
-    "name": "journey/02-approach",
-    "src": "/images/journey/02-approach.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEsAAAABmYzofzjcRpKkSMcnof+enR/M8CS9XB0LETEBE9DmAAbD+xAC0QAMgHkhAAEFfp372f+8QuirA4YREWO+2kl0QgkfE4cPhNmsvAEAVlA4IEoAAADQAwCdASoYAA4APu1kqk2ppaQiMAgBMB2JQBOmUABpvur3AkZVNgAA/pBHP9CoPgwOku8KZSYrccHzhqQV7KgS6ek6zx8OIrgAAA=="
-  },
-  "journey/03-door": {
-    "name": "journey/03-door",
-    "src": "/images/journey/03-door.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEIAAAABmYzofzjcRpLsKl97H8g/NlLR0sPurXUiJmACzm9UqTIiIjhR1JeB2L35PTb+/asPow/9cPFFov2mb2IS3FzpmxFWUDggSgAAABAEAJ0BKhgADgA+7WSpTamlpCIwCAEwHYljAJ0AIWwK9Av54ETGfOOAAP7nHDqkr4yb6KfqdxaYme1ne3Fi2e4zyfIFqSCgSAAA"
-  },
-  "journey/04-lobby": {
-    "name": "journey/04-lobby",
-    "src": "/images/journey/04-lobby.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEMAAAABXyAkIP6PRvIhIjLpUBXbNqWCCjRwKtwMGshwSOA28EoggoL3S4CI/udpJHMhOZ4AiCEkAOJN9703BYbsyq6qWtkvAFZQOCA4AAAAcAMAnQEqGAAOAD7tYqpOOiWkIjAIA0AdiWUAtOgtB7Dxeg3AAP7vSc21OnPAJ4UAb5q4ZlScvAA="
-  },
-  "journey/05-hallway": {
-    "name": "journey/05-hallway",
-    "src": "/images/journey/05-hallway.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSDoAAAABP6AQQADE37nRiIg49oeiAGgiK6zCKlCBmWA08Ghg/xcvA0T0P+9kS1JxPaRB2PF9WKTBLbYkFfsBVlA4ID4AAAAwAwCdASoYAA4APu1kqU2ppaOiMAgBMB2JYwDCgCzbmM/AAP7unhRh+Fm4+Mj5L/HD8aHDb5AcH5cIXSgAAA=="
-  },
-  "journey/06-living": {
-    "name": "journey/06-living",
-    "src": "/images/journey/06-living.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSD4AAAABTyAQSPyhP42ICMcYqCJZiRWogA18FahABB8NIAMNTMyXASL6nx3MqqpgPsNgMq7vZTRgq+oBYB2k+yWZD1ZQOCBIAAAAsAMAnQEqGAAOAD7tZKlNqaWjojAIATAdiWMAtsgh34uS0/vLpyAA/up7+ZzNBs0QynBNIZjpFsXNUYIs5SiyH1p1NgUwAAAA"
-  },
-  "journey/07-kitchen": {
-    "name": "journey/07-kitchen",
-    "src": "/images/journey/07-kitchen.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSDsAAAABTyAQSPyhP42ICEcAVJGsxApUoMLZQCtAA8igCYxgYvkyQET/c7lFZqZbnE4xpGzfSzkBVAHmdnviAgBWUDggQgAAADADAJ0BKhgADgA+7WKpTamlpCIwCAEwHYljAJ0AMGF+lYAA/u7INo+b/P2/yf7rvjPrV1WuZ9J0OeJP/zsVpCAAAA=="
-  },
-  "journey/08-dining": {
-    "name": "journey/08-dining",
-    "src": "/images/journey/08-dining.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSDkAAAABR0CQbePvvL8aERGeAVRFtlJRgQrQACpAA8ygCYxg8Nf9MkBE/xeiZ1TbMmqqAMYQfY8hF8AHOlkAVlA4IEIAAABQAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JYwC7ADBhlY3qAAD+7gIc12t8wT8l09yCPNXIxuW6J7hRjOZu7Y+VQAA="
-  },
-  "journey/09-bedroom": {
-    "name": "journey/09-bedroom",
-    "src": "/images/journey/09-bedroom.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEEAAAABXyAkIP6PRvIhIjLpQE5bT1KYwjLoUxhDBjF8M9gYiiCEBPcrgIj+53ZGZqYzrqEwKdv3UhqArjoA2HGSc5GMBwBWUDggQAAAAFADAJ0BKhgADgA+7WKpTamlpCIwCAEwHYljALOALQex8264AP7ubgtFk0/JHjYJpOwnplIax5cDtq+g4Ed7OAA="
-  },
-  "journey/10-closet": {
-    "name": "journey/10-closet",
-    "src": "/images/journey/10-closet.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSDoAAAABRyAQSPyhP42ICEcAqkhWYgUqPBv4KlDh0UBs4NjA5PJlgIj+5wk98zrZAWCQbmX73kqWS5qZmSFtVlA4IEQAAABQAwCdASoYAA4APu1iqk2ppaQiMAgBMB2JYwCw7C0LRtUCoAD+7gLLHDxjRqxriPVtUeL+bdo/rq7GFwiuUFGeqAAAAA=="
-  },
-  "journey/11-bathroom": {
-    "name": "journey/11-bathroom",
-    "src": "/images/journey/11-bathroom.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSDgAAAABP6AQQADE37nRiIg49geaAEizClbQBmaABlDBNVj/y2sBIvqfQ8i2CU3l0rGe72OtXPoSsm1CD1ZQOCBAAAAAMAMAnQEqGAAOAD7tYqlNqaWjojAIATAdiWUAAHrQzfnMAAD+7p97sOT35IPglycLaS/yRh0IU/AF9V3g0ZUAAA=="
-  },
-  "journey/12-cinema": {
-    "name": "journey/12-cinema",
-    "src": "/images/journey/12-cinema.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEUAAAABXyAWTPyl25VDRKQHmNW2jUkFGlBBhafBRwNXA0sDGW4FGojHzPyaABH9z0VyHpK7ZrxKc5/q90Z/2CDiHyKxA0gHwAAAVlA4IEYAAADwAwCdASoYAA4APu1mqk2ppaQiMAgBMB2JZQDCgCHhvOjN5GKBWv5AAP7emNC4624sfUuqR4iQuNyqOUV5EPskHn7M7tAA"
-  },
-  "journey/13-office": {
-    "name": "journey/13-office",
-    "src": "/images/journey/13-office.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSDkAAAABR0CQbePvvL8aERGeAVRFtlJRgQrQACpAA8ygCYxg8Nf9MkBE/xeiZ1TbMmqqAMYQfY8hF8AHOlkAVlA4IEAAAABwAwCdASoYAA4APu1iqU2ppaQiMAgBMB2JYwC2yC0Hsc5VIgAA/u47JQl3zBPyXT1zBhQiQsZS2KFXEoOZQAAA"
-  },
-  "journey/14-pool": {
-    "name": "journey/14-pool",
-    "src": "/images/journey/14-pool.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRroAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEkAAAABmTJE9D8cbiNJUqTDf4n9d+ydYdJezo5WIiZgAi5xo6NkEjdXjZHgTEVaRUzcqNgRb6si3taW7+Mfv6E/hCitfhUJV2h9PwoAAFZQOCBKAAAAEAQAnQEqGAAOAD7taq1PKaYkIjAIATAdiWYAnQAiIQaghedl58wQkAAA/lmIU+MCjya5IlfEuHOKvNGS7um5a16UwN6hC19wAAA="
-  },
-  "journey/15-lounge": {
-    "name": "journey/15-lounge",
-    "src": "/images/journey/15-lounge.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRroAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEwAAAABb6CobRuIP9ydv800IiL88ZYAVMW2TamgwtWACjJoQIVb4WpABRVoYDQgzPtLgIj+Z8q1j9VKTohEIUZPhKif7Hv+hCXVFABg3cMAVlA4IEgAAABwAwCdASoYAA4APu1iqk2ppaQiMAgBMB2JQBadBDvcsw17OIAA/pA+vFHZU1jolFwKC9UPGtJ71Tn0+wG4LRA1V+j63NbkAAA="
-  },
-  "journey/16-aerial": {
-    "name": "journey/16-aerial",
-    "src": "/images/journey/16-aerial.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEwAAAABb6CobRuIP9z97plGRIRfJwmAqti2KRVUoIFb4WpABg2MBk4GDWSgARWkeX0JENH/bGOuXupYszcASCFmAKCtDW3xvXyqJ7Pzh2UGVlA4IE4AAABwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JQBOgBaD6a63azAAA/unZO2GMEK2/Fj9utGshrDiWXGOC3iep9CkGQk0pr4fJcwS9BogAAAA="
-  },
   "hero": {
     "name": "hero",
     "src": "/images/hero.webp",
-    "width": 3413,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4WAoAAAAQAAAAFwAADQAAQUxQSEEAAAABmYzofzjYRpLkBI0l88+MWLTGwp6rcSImYALGrEAEyJhLsVqoKQaAABJnVIAGj4PzRe3ZL198Nvtskjqt7oS4AABWUDggRgAAAPADAJ0BKhgADgA+7WaqTamlpCIwCAEwHYljAKwAIfDWkWjEmuyjmYAA/pBC8bBgIDY7R6hTQbGWpjnBSKcrClebs5hWAAA="
+    "width": 1376,
+    "height": 768,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoYAA0APxF2slEsJySisAgBgCIJQBOgA3Q113AmoglKuhGAAP6BylI6YU9+rm1Nfmh7n2tu8C+lneA23p92eE/yJB+BLScOAQ/XLsBgAAA="
   },
   "projects/aurelia-tower": {
     "name": "projects/aurelia-tower",
     "src": "/images/projects/aurelia-tower.webp",
-    "width": 1867,
-    "height": 2333,
-    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoYAB4APu1krVAppSQisBgIATAdiWMAnSFDwf2ub0sQGEurvAAA/uvPuTsd3a+S9XJhBPThLmxVBiXezX88TE+SmLb/cBYlhSz/g8UliA9QBgHxbdz6WUjMZRAAAA=="
+    "width": 1200,
+    "height": 896,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBQCdASoYABIAPxGCuVWsKCWjKAgBgCIJZACxG0EA6IruFqReSVDfHXLoKlcAxdAAAP7DUoRVGq4dXHHFkknIETk6p+ymEzaXTKOo3Zc4hkOhSrXkvhoIMoklXl843UwmBMH0oQ4AAA=="
   },
   "projects/serena-courtyard": {
     "name": "projects/serena-courtyard",
     "src": "/images/projects/serena-courtyard.webp",
-    "width": 1867,
-    "height": 2333,
-    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoYAB4APu1mqk2/paQiMBgMA/AdiWMAvzg0a6ihvuO4BPNpIAAA/owvLoJ+CokzoWEEHhWSvH/DNcJh+GeK07UhBVCmSvx6fuYrHmbmPRq4vxhw4qW+PAAAAAA="
+    "width": 1200,
+    "height": 896,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBQCdASoYABIAPxF8sVIsKCSnsBgIAYAiCWUAtsgPWUBznbF+inbZibbxbisEWucgAP67A3YIUVzskY325HP10b2+UZ0hRQwsGQxrw/e9p9myO1AFpwqZG8AAAA=="
   },
   "projects/meridian-cliff": {
     "name": "projects/meridian-cliff",
     "src": "/images/projects/meridian-cliff.webp",
-    "width": 1867,
-    "height": 2333,
-    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACQBACdASoYAB4APuFcqU2opSQiMAwBEBwJQBOmZDBfkuBgvca1yUISHamnAzgA/lRy1LeyzicRBx2Aio3KwMhJJexpURd3qvNGhpvQFcPdZ2bRSWWQ/pyaBOD7m0wA"
+    "width": 1200,
+    "height": 896,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACQBACdASoYABIAPxF2sFAsJ6SisAgBgCIJZACdMoADSY6X3IgFGd8xHpC09gAA/q6wtgNh+JJMt4WjB7LxknJUitVKluwFOiZAMfmbuDWgvTSq+JFC36XLJD3WW28FAjPZZIRnJRAz1AAA"
   },
   "projects/lumen-tower": {
     "name": "projects/lumen-tower",
     "src": "/images/projects/lumen-tower.webp",
-    "width": 1867,
-    "height": 2333,
-    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwBACdASoYAB4APu1mq06ppaOiKA1RMB2JZQCdM6UApDSD48egHzv7vKU2GUbEAP7rghpq0+PSOC/HZxWxIixP1Ait8nTtLgtedRwbvFamf1ZyEA+kpEeT6vS1lK381yBDgAAA"
+    "width": 1200,
+    "height": 896,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABwBQCdASoYABIAPxFwsVCsJiSisBgMAYAiCWIAnS+vAOhtjw/IvcNCLFMmiq3t/2kg/VzwAP6QHatvwK+ojZg/yB3/2C9LX5ZG5WkiEShAakagPXdVZdnSHNEvBEiPxp1nftLcerEAAA=="
   },
   "projects/vela-courtyard": {
     "name": "projects/vela-courtyard",
     "src": "/images/projects/vela-courtyard.webp",
-    "width": 1867,
-    "height": 2333,
-    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQBACdASoYAB4APu1oqU2/piQiMBgMA/AdiWMAnQA0cMAqmh2qJ91UiAD+jC5y3xnaIwCp3ZzWsICXosZo6LAnMXUA/bMvcxWPMU0i2CSvoQeqtFHXs/6J6DhcAAAA"
+    "width": 1200,
+    "height": 896,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBQCdASoYABIAPxF4sFKsJyQiqA1RgCIJQBhWXRA1JJMix43CvWCaG8z2vkAU9w7EmnwA/o74Ziou05NyguUHGIPgCK4L+KETOOhLHmmXmiYmDZqEcdRr4KaSocBFRLh2gAAA"
   },
   "projects/solace-cliff": {
     "name": "projects/solace-cliff",
     "src": "/images/projects/solace-cliff.webp",
-    "width": 1867,
-    "height": 2333,
-    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQBACdASoYAB4APuFcqU2opSQiMAwBEBwJQBOmZDBfkuBghSSyAmETahcAAP5UctS3ss4nEQcdg117YNajNCT72NKiLu9V5o0NN6Arh7zzAct0A5Fr5jzlCqpX92wA"
+    "width": 1200,
+    "height": 896,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoYABIAPwVuq1ArpqOisAwBcCCJQBbZBEBBpGNn+VXJwAD+UcGG42WiApoelswvpzRsI4ZUx4VuhSIwsUc0lC1/sk4w6bDZxqMXRqA5ukCMJkY0N4fIsFxOrr0wpgAA"
   },
   "sections/skyline": {
     "name": "sections/skyline",
     "src": "/images/sections/skyline.webp",
-    "width": 3413,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4WAoAAAAQAAAAFwAACgAAQUxQSEQAAAABYBtJkpr8AxRbbzEzSXI3hIiYgIO3H9j4sWO6vEHDko1VxMrq4A3xjvJIyP8uYjrkWzQMyDt1nohvdV8X4h01thfSM1ZQOCBCAAAAUAMAnQEqGAALAD7tYqlNqaWkIjAIATAdiWUAqPQtB3jDjAAA/u1C6fnfk1upll4kC9cia6Gu7vBb48Tihf3XkAAA"
+    "width": 1376,
+    "height": 768,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAwCdASoYAA0ALtGIxGIkLCwsDADQSygGBuIbnE4yt8cAAP4l4dpdzbXI4Q+lvB9QOFuH/wFNNcXoYyUVVreIAAA="
   },
   "sections/about": {
     "name": "sections/about",
     "src": "/images/sections/about.webp",
-    "width": 2133,
-    "height": 2667,
-    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQBACdASoYAB4APu1iqU2ppaOiMAgBMB2JZQC06CHSyPqF7m4isqPc5dUAAP5SwAK1a+I4gpD98OGdlTtjwNywMPCJ4fDSwhQ9FVOBOc0gCMcAAAA="
+    "width": 896,
+    "height": 1200,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBQCdASoYACAAPxF2s1CsJ6SisAgBgCIJQBfJBF0TeWqtO1Hyx5gy0OE2nEYIpd0AAP6BwlICJpjp9JymBDYNKSsqVU2xaLcnu+/rR9+zhmQnjytCq3dO5Wa+eYaOIuezh4KB6MrW+m9uYaj0d2Eh07w2Avl1251RkA/CaDOoAA=="
   },
   "sections/floorplan": {
     "name": "sections/floorplan",
     "src": "/images/sections/floorplan.webp",
+    "width": 1376,
+    "height": 768,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoYAA0APxGCtFIsKaUisAgBgCIJZQCw7BgJ4TzmLP7MbkAAAPiL3ccBRyw3ssaPcTbxLgX+/OWsaLSreQ8GgMhu14X6AAAA"
+  },
+  "journey/01-exterior": {
+    "name": "journey/01-exterior",
+    "src": "/images/journey/01-exterior.webp",
     "width": 2400,
-    "height": 1733,
-    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4WAoAAAAQAAAAFwAAEAAAQUxQSCAAAAABH6CmbQOGP9nOq1dpRER8BQiybeoxf7PjHCCi/xHsH1ZQOCA0AAAAUAMAnQEqGAARAD7tbKxRKaWkIqgKqTAdiWcAxzAZLC2mFgAA/u/x2FMWw1tFZyt+TgAAAA=="
+    "height": 1601,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoYABAAPxF0sFAsJySisAgBgCIJYwCw7CHf5GL0MGQO9eoA/u1YBbYPoMKMwHFoxmAl6I86ow+m1eLlFDuzuHqZwRJUaU10OFLEHg4Hc3fGgnhgAAA="
+  },
+  "journey/02-approach": {
+    "name": "journey/02-approach",
+    "src": "/images/journey/02-approach.webp",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoYABAAPxF0tFAsJyUisAgBgCIJQBOgAX8wrZhvESW/gADMQZlybhRaUI1/Kuc8MwK83w/nZ0oZdfIldP+XRUW24/nGKSnj5GkTFO9UVc8tFdEAAAA="
+  },
+  "journey/03-door": {
+    "name": "journey/03-door",
+    "src": "/images/journey/03-door.webp",
+    "width": 2400,
+    "height": 1592,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoYABAAPxFysVAsJqSisAgBgCIJYgCdACK64tqRnDgA/e4NaHRAxMzcEGMwCntLlOEz3fz4b773W4qsW+9aiFYI8lgYxwQcGmIgAA=="
+  },
+  "journey/04-lobby": {
+    "name": "journey/04-lobby",
+    "src": "/images/journey/04-lobby.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBQCdASoYABIAPxF2tFKsJqUisBgIAYAiCWUArDNVwZ9LpZP/t58gfDQjGpcRljmvwAD3nYCrFbgg4GJeOhUtMen4x84ARlp0fUhBG3RMsXVWIkzMiMLVCckTICZ8gCzyNdIafUfJh4OUE7oAAA=="
+  },
+  "journey/05-hallway": {
+    "name": "journey/05-hallway",
+    "src": "/images/journey/05-hallway.webp",
+    "width": 2400,
+    "height": 1632,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoYABAALtGIxGIkLCwsDADQSxgABLMSBaWseLkwSEwAAPgyxIqKur9riBHDZrhEfVMTVP5iegjQ+bnUp5YGKY9AKRYNU9a2oJYeuDkiC7BAAA=="
+  },
+  "journey/06-living": {
+    "name": "journey/06-living",
+    "src": "/images/journey/06-living.webp",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoYABAAPxFysFAsJqSisAgBgCIJbACdACHfw0wM6mYDN0BhgAD+2QxHQv9+VPhcBXnIzwdbseWkSF7rOuAQ9oL6C7fNzrbiA29lpQ9RKyDAAA=="
+  },
+  "journey/07-kitchen": {
+    "name": "journey/07-kitchen",
+    "src": "/images/journey/07-kitchen.webp",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoYABAALtGIxGIkLCwsDADQSgCdAEQ+JHT07/IT8AD+30DrTowkGOIavvf5y43fJieTkFkhginKBM62hD4t5swAAAA="
+  },
+  "journey/08-dining": {
+    "name": "journey/08-dining",
+    "src": "/images/journey/08-dining.webp",
+    "width": 2400,
+    "height": 1350,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoYAA0ALtGIxGIkLCwsDADQSgC06D0Nj6t1LOmcbJsAAP7nQY5i+JBd5W0/PA6yQhToM7y334ysaQlTKS3i4qMN7gQAAA=="
+  },
+  "journey/09-bedroom": {
+    "name": "journey/09-bedroom",
+    "src": "/images/journey/09-bedroom.webp",
+    "width": 2400,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBQCdASoYABgAPxF6sVKsJ6SiqA1RgCIJZQC+DBEvbWtCyGz0dC/u4Lp2v7i6cFlb/ADNpDyG1l5iNuAFOS6bA+E1j9kZ32+i29YTlxYz35pWaucza3VXja/cljJAv38ikNfgsFD1wPcAAAA="
+  },
+  "journey/10-closet": {
+    "name": "journey/10-closet",
+    "src": "/images/journey/10-closet.webp",
+    "width": 2400,
+    "height": 3600,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQBQCdASoYACQAPxF8t1KsKCWiqqoBgCIJZADIuJt/GAdmtxoWFzlwIghJrbaNBl05h4wMcSUAAP7nHV4i2bpyA/4u0DBGdTWyaCZ59NvY6rxhc9Om2zXd+B5FtTmcZCJVhqN41t5R0mBSAFU33+LtiAwg7Ew/OYK6Sq+UDyPB7lNnnHbgAA=="
+  },
+  "journey/11-bathroom": {
+    "name": "journey/11-bathroom",
+    "src": "/images/journey/11-bathroom.webp",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoYABAAPxF4tFGsJyUisAgBgCIJZQC7AGt/1KD4qtzXZh6+AP7zkDKjuvQhVkulxlKwGqM18dresOQQo//+9EqMGKpoIQQA"
+  },
+  "journey/12-cinema": {
+    "name": "journey/12-cinema",
+    "src": "/images/journey/12-cinema.webp",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABQAwCdASoYABAAPxFysVCsJqSisAgBgCIJQBkTBgwvq7/MwAD+7+OvEh0+0C1Hwfq+mHSVCCpB2nogAAA="
+  },
+  "journey/13-office": {
+    "name": "journey/13-office",
+    "src": "/images/journey/13-office.webp",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoYABAAPxF2sVAsJ6SisAgBgCIJZQC/7BuYRtwvw5dALUCVAAD90mDktcjUZrnhVoFo5IVmWi9pjk3tQYXkC+rmpX+YAifSrUAAAA=="
+  },
+  "journey/14-pool": {
+    "name": "journey/14-pool",
+    "src": "/images/journey/14-pool.webp",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoYABAALtGIxGIkLCwsDADQS0AFYAIdqHK5vKhnOyXAwAD+kaaidwFaeZjQ8K4FhNhn6WK7gqpzfekbAASXFlZBBPNc1u+HF2COIAgw5QflTanlgAA="
+  },
+  "journey/15-lounge": {
+    "name": "journey/15-lounge",
+    "src": "/images/journey/15-lounge.webp",
+    "width": 2400,
+    "height": 3600,
+    "blurDataURL": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABwBgCdASoYACQAPxF8tlKsKCUiqqoBgCIJZAC/a4CFOre9vx1KBGW5t0GqZrmQeDSEYT7skSXJX+7psIAA/s9tey/N+xoe1I8rn+vc7I5IBmbrFPjF+pke0gUoeE03AU16/mp7CsKHD1OKqrtvQLeyurxhZAZlhVBiLzO9E4MQBkUDb1x87XDXA6KVQxmuUMaN+qfBo5IfapsuMM0SkSNUh2fdKciTPxa6fAAA"
+  },
+  "journey/16-aerial": {
+    "name": "journey/16-aerial",
+    "src": "/images/journey/16-aerial.webp",
+    "width": 2400,
+    "height": 1595,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoYABAAPxFwsFAsJiSisAgBgCIJQBOgBDj05M1fXc/o+oAA/pCAjcTMUNIgJZRYQjM6xSxLauYX691jW4j5+ZimQ8MyiG0gAAA="
   }
 }
