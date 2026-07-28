@@ -17,7 +17,7 @@ const localGenerated = {
   "projects/solace-cliff": "/src/assets/images/oman_real_musandam_1785247200280.jpg",
   "sections/skyline": "/src/assets/images/oman_real_skyline_1785247216117.jpg",
   "sections/about": "/src/assets/images/oman_real_about_1785247230270.jpg",
-  "sections/floorplan": "/src/assets/images/oman_floorplan_1785245977791.jpg",
+  "sections/floorplan": "/src/assets/images/oman_real_floorplan_1785248278350.jpg",
 };
 
 /* Real photography for journey scenes */

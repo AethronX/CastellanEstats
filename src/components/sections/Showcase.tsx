@@ -116,12 +116,12 @@ export default function Showcase() {
             );
           })}
 
-          {/* floor plan finale */}
+          {/* Pavilion finale */}
           <figure className="relative w-full shrink-0 overflow-hidden rounded-sm border border-champagne/15 bg-obsidian md:w-[min(62vw,880px)]">
             <div className="relative aspect-[16/10]">
               <Image
                 src={plan.src}
-                alt="Floor plan of the Meridian Cliff residence — six wings arranged around a central gallery and pool terrace"
+                alt="Photorealistic architectural photo of the Master Pavilion — Omani white stone wings around reflecting pool at sunset"
                 fill
                 sizes="(min-width: 768px) 62vw, 92vw"
                 placeholder="blur"
@@ -134,10 +134,10 @@ export default function Showcase() {
                 {String(GALLERY.length + 1).padStart(2, "0")} / {String(GALLERY.length + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-1 font-display text-2xl font-light text-ivory md:text-3xl">
-                The Composition
+                The Master Pavilion
               </h3>
               <p className="mt-1 text-xs font-light text-ivory/55">
-                Meridian Cliff — principal floor, 980 m²
+                Bandar Jissah Sanctuary — sunset reflecting pool & stone wings
               </p>
             </figcaption>
           </figure>
