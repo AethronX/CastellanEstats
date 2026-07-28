@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect, type ReactNode } from "react";
+import { useRef, useEffect, type ReactNode } from "react";
 import { gsap } from "@/lib/gsap";
 
 type Props = {
@@ -15,7 +15,7 @@ type Props = {
 export default function FadeIn({ children, delay = 0, y = 36, blur = false, className = "" }: Props) {
   const ref = useRef<HTMLDivElement>(null);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = ref.current;
     if (!el) return;
     const ctx = gsap.context(() => {

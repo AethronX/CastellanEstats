@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect, type ElementType } from "react";
+import { useRef, useEffect, type ElementType } from "react";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
 
 type Props = {
@@ -30,7 +30,7 @@ export default function TextReveal({
 }: Props) {
   const ref = useRef<HTMLElement>(null);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = ref.current;
     if (!el) return;
     const targets = el.querySelectorAll<HTMLElement>(".char-line > span");

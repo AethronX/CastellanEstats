@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
@@ -28,7 +28,7 @@ export default function Showcase() {
   const [zoom, setZoom] = useState<(typeof GALLERY)[number] | null>(null);
   const plan = img("sections/floorplan");
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = root.current;
     const tr = track.current;
     if (!el || !tr) return;
@@ -51,7 +51,7 @@ export default function Showcase() {
     return () => mm.revert();
   }, []);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     document.documentElement.style.overflow = zoom ? "hidden" : "";
     return () => {
       document.documentElement.style.overflow = "";

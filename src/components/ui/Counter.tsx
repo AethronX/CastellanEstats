@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect } from "react";
+import { useRef, useEffect } from "react";
 import { gsap } from "@/lib/gsap";
 
 type Props = {
@@ -24,7 +24,7 @@ export default function Counter({
   const ref = useRef<HTMLSpanElement>(null);
   const dp = decimals ?? (Number.isInteger(value) ? 0 : 1);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = ref.current;
     if (!el) return;
     const state = { n: 0 };

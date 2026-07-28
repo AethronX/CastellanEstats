@@ -49,7 +49,7 @@ function Field({
       >
         {label}
       </label>
-      {textarea ? <textarea rows={3} {...shared} /> : <input type={type} {...shared} />}
+      {textarea ? <textarea rows={3} suppressHydrationWarning {...shared} /> : <input type={type} suppressHydrationWarning {...shared} />}
       <span
         className={`absolute bottom-0 left-0 h-px bg-champagne transition-all duration-700 ease-luxe ${focused ? "w-full" : "w-0"}`}
         aria-hidden="true"
@@ -107,6 +107,7 @@ export default function Contact() {
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.4 }}
                 onSubmit={onSubmit}
+                suppressHydrationWarning
                 className="mt-16 grid gap-9"
               >
                 <div className="grid gap-9 md:grid-cols-2">
@@ -125,6 +126,7 @@ export default function Contact() {
                     <select
                       id="interest"
                       name="interest"
+                      suppressHydrationWarning
                       className="w-full appearance-none border-b border-ivory/15 bg-transparent pb-3 pt-6 text-[15px] font-light text-ivory outline-none transition-colors duration-500 focus:border-champagne [&>option]:bg-charcoal"
                       defaultValue="viewing"
                     >

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect } from "react";
+import { useRef, useEffect } from "react";
 import Image from "next/image";
 import { gsap } from "@/lib/gsap";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -18,7 +18,7 @@ export default function Story() {
   const root = useRef<HTMLElement>(null);
   const about = img("sections/about");
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = root.current;
     if (!el) return;
     const ctx = gsap.context(() => {

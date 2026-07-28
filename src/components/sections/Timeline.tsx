@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect } from "react";
+import { useRef, useEffect } from "react";
 import { gsap } from "@/lib/gsap";
 import SectionHeading from "@/components/ui/SectionHeading";
 import FadeIn from "@/components/ui/FadeIn";
@@ -9,7 +9,7 @@ import { TIMELINE } from "@/data/content";
 export default function Timeline() {
   const root = useRef<HTMLElement>(null);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = root.current;
     if (!el) return;
     const ctx = gsap.context(() => {

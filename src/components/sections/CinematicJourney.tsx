@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { JOURNEY_SCENES, img } from "@/data/content";
@@ -58,7 +58,7 @@ export default function CinematicJourney() {
   const barRef = useRef<HTMLDivElement>(null);
   const [reduced, setReduced] = useState(false);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setReduced(true);
       return;

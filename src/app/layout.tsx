@@ -70,7 +70,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`}>
+    <html lang="en" suppressHydrationWarning className={`${display.variable} ${sans.variable}`}>
       <body className="grain cursor-none-desktop font-sans bg-obsidian text-ivory">
         <script
           type="application/ld+json"

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useLayoutEffect } from "react";
+import { useRef, useEffect } from "react";
 import Image from "next/image";
 import { gsap } from "@/lib/gsap";
 import TextReveal from "@/components/ui/TextReveal";
@@ -16,7 +16,7 @@ export default function Hero() {
   const root = useRef<HTMLElement>(null);
   const hero = img("hero");
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = root.current;
     if (!el) return;
     const ctx = gsap.context(() => {
