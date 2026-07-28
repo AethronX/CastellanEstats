@@ -1,0 +1,8 @@
+{
+  "name": "Castellan Estates",
+  "description": "Castellan Estates — a cinematic luxury real estate experience",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

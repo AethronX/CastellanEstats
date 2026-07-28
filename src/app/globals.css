@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ground: #faf8f2;
+  --ground-alt: #f3eee2;
+  --ink: #221c12;
+  --bronze: #8a6d43;
+  --ease-luxe: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  scroll-behavior: initial;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+::selection {
+  background: rgba(138, 109, 67, 0.22);
+  color: var(--ink);
+}
+
+/* Scrollbar — thin bronze line */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ground-alt);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(138, 109, 67, 0.4);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(138, 109, 67, 0.65);
+}
+
+@media (pointer: fine) {
+  .cursor-none-desktop,
+  .cursor-none-desktop a,
+  .cursor-none-desktop button {
+    cursor: none;
+  }
+}
+
+/* Typographic utilities */
+.text-balance {
+  text-wrap: balance;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(105deg, #a8894f 0%, #8a6d43 38%, #6b5230 62%, #a8894f 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gold-shimmer 7s ease-in-out infinite;
+}
+
+@keyframes gold-shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.glass-panel {
+  background: linear-gradient(150deg, rgba(255, 253, 246, 0.72), rgba(255, 253, 246, 0.45));
+  border: 1px solid rgba(34, 28, 18, 0.08);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 18px 50px -22px rgba(90, 70, 40, 0.25);
+}
+
+.hairline-b {
+  border-bottom: 1px solid rgba(138, 109, 67, 0.2);
+}
+
+.vignette-overlay {
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(70, 55, 32, 0.16) 100%);
+}
+
+/* Premium soft shadow for cards and imagery */
+.luxe-shadow {
+  box-shadow: 0 30px 70px -30px rgba(90, 70, 40, 0.35);
+}
+
+/* Film grain over the whole experience */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: -100%;
+  z-index: 100;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.02;
+  mix-blend-mode: multiply;
+  animation: grain-shift 9s steps(6) infinite;
+}
+
+@keyframes grain-shift {
+  0%, 100% { transform: translate(0, 0); }
+  20% { transform: translate(-3%, 2%); }
+  40% { transform: translate(2%, -3%); }
+  60% { transform: translate(-2%, -2%); }
+  80% { transform: translate(3%, 3%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain::after {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Reveal helpers (GSAP sets final states) */
+.will-reveal {
+  visibility: hidden;
+}
+
+.char-line {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.char-line > span {
+  display: inline-block;
+  will-change: transform;
+}
+
+/* Input focus ring in bronze */
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 1px solid rgba(138, 109, 67, 0.7);
+  outline-offset: 3px;
+}
